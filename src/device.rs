@@ -471,7 +471,7 @@ fn platform_permission_hint() -> &'static str {
     } else if cfg!(target_os = "macos") {
         "On macOS, ensure Input Monitoring / USB access permissions are granted to your terminal if prompted."
     } else {
-        "Ensure CORSAIR Test Driver (`Mouse Drive Beta.exe`) or iCUE is closed if it has exclusive access to the device."
+        "Ensure Corsair iCUE or any other mouse configuration software is closed if it has exclusive access to the device."
     }
 }
 

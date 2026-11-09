@@ -2,7 +2,9 @@
 
 A cross-platform (**Windows**, **macOS**, and **Linux**) terminal utility in Rust for viewing device status and adjusting the button debounce timing of the **Corsair Sabre v2 Pro**.
 
-> **Note:** This tool is built exclusively for the **Corsair Sabre v2 Pro** (wired and 2.4 GHz wireless modes). Do not use it with other mouse models.
+> **Note:** This tool is built exclusively for the **Corsair Sabre v2 Pro** (wired and 2.4 GHz wireless modes). Do not use it with other mouse models. The factory default debounce time is `8 ms`; setting values lower than `8 ms` may result in slam clicks or double-clicking depending on your switches.
+>
+> **Disclaimer:** This is an independent, unofficial community project and is **not** affiliated with, endorsed by, or supported by Corsair Memory, Inc. in any way. "Corsair" and "Sabre" are trademarks of Corsair Memory, Inc.
 
 ---
 
